@@ -37,11 +37,15 @@ This should start a development server with the React application that will inte
 
 # Postman collection
 
-An alternative way to test API, you can use the Postman collection that contains sample requests. You can find a Postman collection in this project. API endpoints as below.
+An alternative way to test API, you can use the Postman collection that contains sample requests. You can find a Postman collection in this project. API endpoints 
 
 GET - https://k8htrgpfrh.execute-api.us-east-2.amazonaws.com/dev/photos
+
 POST - https://k8htrgpfrh.execute-api.us-east-2.amazonaws.com/dev/photos
+
 PATCH - https://k8htrgpfrh.execute-api.us-east-2.amazonaws.com/dev/photos/{photoId}
+
 DELETE - https://k8htrgpfrh.execute-api.us-east-2.amazonaws.com/dev/photos/{photoId}
+
 POST - https://k8htrgpfrh.execute-api.us-east-2.amazonaws.com/dev/photos/{photoId}/attachment
 
