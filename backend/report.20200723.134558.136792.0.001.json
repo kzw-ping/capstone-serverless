@@ -1,0 +1,432 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200723.134558.136792.0.001.json",
+    "dumpEventTime": "2020-07-23T13:45:58Z",
+    "dumpEventTimeStamp": "1595488558557",
+    "processId": 136792,
+    "cwd": "C:\\Users\\ChitPing\\UdacityClass\\project\\Capstone\\backend",
+    "commandLine": [
+      "node",
+      "C:\\Users\\ChitPing\\AppData\\Roaming\\npm\\\\node_modules\\serverless\\bin\\serverless.js",
+      "deploy",
+      "-v",
+      "--aws-profile",
+      "serverless",
+      "--region",
+      "us-east-2"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz",
+        "speed": 2594,
+        "user": 18522531,
+        "nice": 0,
+        "sys": 22897921,
+        "idle": 156096312,
+        "irq": 2052703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz",
+        "speed": 2594,
+        "user": 16991093,
+        "nice": 0,
+        "sys": 19723406,
+        "idle": 160802046,
+        "irq": 541750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz",
+        "speed": 2594,
+        "user": 18394218,
+        "nice": 0,
+        "sys": 19403953,
+        "idle": 159718328,
+        "irq": 260968
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz",
+        "speed": 2594,
+        "user": 18047968,
+        "nice": 0,
+        "sys": 17458484,
+        "idle": 162010093,
+        "irq": 224671
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:14",
+        "address": "fe80::55cc:d92e:79d:7347",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:14",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:08",
+        "address": "fe80::b90f:b068:e424:2bb6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:08",
+        "address": "192.168.99.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "30:3a:64:be:88:31",
+        "address": "fe80::d46:df4a:3917:254e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 23
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "30:3a:64:be:88:31",
+        "address": "192.168.8.102",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Ping"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6fe0119f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff6fe015e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff6fe014dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff6fe1134cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff6fe929f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6fe912021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6fe7de57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6fe7e97d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6fe7e62f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6fe7dbb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6fe7da184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff6fe7fb36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff6fe560c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff6fed74ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000028e0abb0639",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153177088,
+    "totalCommittedMemory": 2153177088,
+    "usedMemory": 2141812000,
+    "availableMemory": 46699632,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2621440,
+        "committedMemory": 2621440,
+        "capacity": 1309320,
+        "used": 588792,
+        "available": 720528
+      },
+      "old_space": {
+        "memorySize": 1935294464,
+        "committedMemory": 1935294464,
+        "capacity": 1928661728,
+        "used": 1928630152,
+        "available": 31576
+      },
+      "code_space": {
+        "memorySize": 2527232,
+        "committedMemory": 2527232,
+        "capacity": 1918688,
+        "used": 1918688,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 5509120,
+        "committedMemory": 5509120,
+        "capacity": 5204400,
+        "used": 5204400,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 206340096,
+        "committedMemory": 206340096,
+        "capacity": 204892872,
+        "used": 204892872,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1309320,
+        "used": 0,
+        "available": 1309320
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 245.093,
+    "kernelCpuSeconds": 9.968,
+    "cpuConsumptionPercent": 225.718,
+    "maxRss": 2282405888,
+    "pageFaults": {
+      "IORequired": 891406,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 20426,
+      "writes": 9
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\Users\\ChitPing\\UdacityClass\\project\\Capstone\\backend",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\ChitPing\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "AWS_BUCKET": "udagram-khinezw-dev",
+    "AWS_PROFILE": "default",
+    "AWS_REGION": "us-east-2",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132275523037161203",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPOSE_CONVERT_WINDOWS_PATHS": "true",
+    "COMPUTERNAME": "PING",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DOCKER_CERT_PATH": "C:\\Users\\ChitPing\\.docker\\machine\\machines\\default",
+    "DOCKER_HOST": "tcp://192.168.99.104:2376",
+    "DOCKER_MACHINE_NAME": "default",
+    "DOCKER_TLS_VERIFY": "1",
+    "DOCKER_TOOLBOX_INSTALL_PATH": "C:\\Program Files\\Docker Toolbox",
+    "dp0": "C:\\Users\\ChitPing\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOME": "C:\\Users\\ChitPing",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\ChitPing",
+    "JWT_SECRET": "helloworld",
+    "LOCALAPPDATA": "C:\\Users\\ChitPing\\AppData\\Local",
+    "LOGONSERVER": "\\\\PING",
+    "NO_PROXY": "192.168.99.100,192.168.99.104",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\ChitPing\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\ChitPing\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Python37\\Scripts\\;C:\\Program Files\\Python37\\;C:\\ProgramData\\Oracle\\Java\\javapath;c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Common Files\\Adobe\\AGL;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Users\\ChitPing\\AppData\\Roaming\\npm;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Kubernetes\\Minikube;C:\\Windows\\kube;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files\\nodejs\\;C:\\Users\\ChitPing\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\ChitPing\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\Users\\ChitPing\\.windows-build-tools\\python27\\;C:\\Users\\ChitPing\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ChitPing\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ChitPing\\AppData\\Roaming\\Python\\Python37\\Scripts;C:\\Program Files (x86)\\UnxUtils\\usr\\local\\wbin;C:\\Program Files\\Docker Toolbox;C:\\Windows\\kube;C:\\Users\\ChitPing\\Documents\\WindowsPowerShell\\Scripts;C:\\Users\\ChitPing\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "POSTGRESS_DB": "udagramkhinedev",
+    "POSTGRESS_HOST": "udagramkhinedev.cbshfutptiia.us-east-2.rds.amazonaws.com",
+    "POSTGRESS_PASSWORD": "udagramkhinedev",
+    "POSTGRESS_USERNAME": "udagramkhinedev",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 69 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4501",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\ChitPing\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\ChitPing\\AppData\\Local\\Temp",
+    "URL": "http://192.168.99.104:8100",
+    "USERDOMAIN": "PING",
+    "USERDOMAIN_ROAMINGPROFILE": "PING",
+    "USERNAME": "ChitPing",
+    "USERPROFILE": "C:\\Users\\ChitPing",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VS110COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\",
+    "VS120COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

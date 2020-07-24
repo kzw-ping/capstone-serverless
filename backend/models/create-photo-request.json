@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "createPhoto",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^(?![nN][uU][lL]{2}$)\\s*\\S.*",
+      "minLength": 5,
+      "maxLength": 20
+    },
+    "description": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 255
+    }
+  },
+  "required": [
+    "name",
+    "description"
+  ],
+  "additionalProperties": false
+}
